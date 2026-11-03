@@ -1,0 +1,14 @@
+# Conda environment for xarray_tutorial_waccmx.ipynb
+# Create it with:   conda env create -f environment.yml
+name: xarray_tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - xarray
+  - dask
+  - netcdf4
+  - matplotlib
+  - jupyterlab
+  - ipykernel
